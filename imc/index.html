@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        body {
+            background-image: linear-gradient(90deg, rgba(40, 40, 40, 0.515), rgba(100, 100, 100, 0.737), rgba(41, 41, 41, 0.743));
+            color: white;
+            font: normal 2.5em monospace;
+            text-align: center;
+            margin: auto;
+            padding: 20px;
+        }
+        .script {
+            font-family: monospace;
+            color: black;
+            font-weight: bolder;
+            font-size: 1.7em;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Obrigado por participar do teste</h1>
+
+    <div class="script">
+        <script>
+            var nome = prompt('Qual é seu nome?')
+            confirm(`Olá ${nome}, você gostaria de saber o seu imc?`)
+            alert('Vamos lá, vou precisar de alugumas informações básicas')
+            var peso = Number(prompt('Primeiro me diga qual é seu peso'))
+            var altura1 = Number(prompt('Agora me diga qual é a sua altura'))
+            var altura2 = altura1 * altura1
+            var altura = altura2
+            var imc = peso / altura
+            alert('Pronto, basta dar ok para ver o resultado')
+            document.write(`O seu imc é ${imc.toFixed(2)}`)
+        </script>
+    </div>
+    
+</body>
+</html>
