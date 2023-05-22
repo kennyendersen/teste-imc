@@ -25,19 +25,18 @@
 </head>
 <body>
     <h1>Obrigado por participar do teste</h1>
-
+    
     <div class="script">
         <script>
             var nome = prompt('Qual é seu nome?')
             confirm(`Olá ${nome}, você gostaria de saber o seu imc?`)
-            alert('Vamos lá, vou precisar de algumas informações básicas')
+            alert('Vamos lá, vou precisar de alugumas informações básicas')
             var peso = Number(prompt('Primeiro me diga qual é seu peso'))
-            var altura1 = Number(prompt('Agora me diga qual é a sua altura'))
-            var altura2 = altura1 * altura1
-            var altura = altura2
-            var imc = peso / altura
+            var altura = Number(prompt('Agora me diga qual é a sua altura'))
+            var altura1 = altura * altura
+            var imc = peso / altura1
             alert('Pronto, basta dar ok para ver o resultado')
-            document.write(`O seu imc é ${imc.toFixed(2)}`)
+            document.write(`${nome}, o seu imc é ${imc.toFixed(2)}`)
         </script>
     </div>
     
