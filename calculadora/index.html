@@ -15,7 +15,15 @@
         }
 
         input {
-            display: inline;
+            margin: 5px;
+            padding: 3px;
+            font: normal 18pt monospace;
+            width: 10vh;
+            border-radius: 5px;
+        }
+
+        .button {
+            font-size: 1.5em;
         }
 
         h1 {
@@ -27,16 +35,16 @@
     <h1>CALCULADORA SIMPLES</h1>
     <input type="number" name="soma1" id="soma1"> +
     <input type="number" name="soma2" id="soma2">  
-    <input type="button" value="=" onclick="somar()"> <span id="ss"></span> <br> <!--soma dos valores-->
+    <input type="button" value="=" onclick="somar()"> <span id="ss" class="button"></span> <br> <!--soma dos valores-->
     <input type="number" name="sub1" id="sub1"> -
     <input type="number" name="sub2" id="sub2"> 
-    <input type="button" value="=" onclick="subtrair()"> <span id="subt"></span> <br> <!--sutração dos valores-->
+    <input type="button" value="=" onclick="subtrair()"> <span id="subt" class="button"></span> <br> <!--sutração dos valores-->
     <input type="number" name="mult1" id="mult1"> *
     <input type="number" name="mult2" id="mult2"> 
-    <input type="button" value="=" onclick="multiplicar()"> <span id="mt"></span> <br> <!--multiplicação dos valores-->
+    <input type="button" value="=" onclick="multiplicar()"> <span id="mt" class="button"></span> <br> <!--multiplicação dos valores-->
     <input type="number" name="div1" id="div1"> /
     <input type="number" name="div2" id="div2"> 
-    <input type="button" value="=" onclick="dividir()"> <span id="div"></span> <br> <!--=divisão dos valores-->
+    <input type="button" value="=" onclick="dividir()"> <span id="div" class="button"></span> <br> <!--=divisão dos valores-->
     
     <script>
         function somar(){
