@@ -1,15 +1,15 @@
 @charset "UTF-8";
 
 body {
-    background-image: linear-gradient(90deg, rgba(40, 40, 40, 0.515), rgba(100, 100, 100, 0.737), rgba(41, 41, 41, 0.743));
-    color: white;
-    font: normal 2.5em monospace;
+    background-image: linear-gradient(90deg, rgba(7, 7, 7, 0.515), rgba(48, 47, 47, 0.737));
+    color: rgb(255, 255, 255);
+    font: normal 2.3em monospace;
     text-align: center;
     padding: 15px;
 }
 
 .script {
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: bolder;
-    font-size: 1.7em;
+    font-size: 1.5em;
 }
